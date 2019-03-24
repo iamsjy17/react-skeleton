@@ -122,5 +122,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "prettier-eslint": "^8.8.2"
   }
 }

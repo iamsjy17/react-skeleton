@@ -16,4 +16,13 @@ create-react-app react-skeleton
 yarn eject
 ```
 
+### sass 설정
+
+```bash
+yarn add node-sass classnames
+```
+
+1. node-sass : sass로 작성된 코드들을 css로 변환해주는 역할을 한다.
+2. classname : 여러개의 클래스를 한번에 주고 싶을 때 편리하게 할 수 있도록 도와주는 라이브러리
+
 ###

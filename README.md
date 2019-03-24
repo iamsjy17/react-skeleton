@@ -64,3 +64,41 @@ root 경로에 styles 폴더를 추가하고, 스타일 파일들을 편하게 �
               sideEffects: true
             },
 ```
+
+### Redux 추가
+
+#### redux dependency 추가
+
+기본적으로 리덕스를 사용하기 위해서 redux, react-redux 를 추가해줍니다.
+
+```
+yarn add redux react-dedux
+```
+
+#### Immutable 추가
+
+`Immutable`은 리액트에서 중요한 객체 불변성을 편하게 유지할 수 있도록 도와주는 라이브러리입니다.
+
+```
+yarn add immutable
+```
+
+#### redux-actions 추가
+
+매번 action type 을 추가 할 때마다 action 생성함수를 만드는 것이 상당히 번거롭습니다. redux-actions 는 action 생성함수를 편하게 만들 수 있도록 도와주는 라이브러리입니다.
+
+```
+yarn add redux-actions
+```
+
+### Router 추가
+
+SPA, Single Page Application 개발을 위해서는 라우팅 기능이 필요합니다. 리액트 자체에는 이런 기능을 내장하고 있지 않기 때문에 라이브러리를 사용합니다.
+
+#### react-router 추가
+
+리액트 애플리케이션에서 라우팅 용도로 가장 많이 사용되는 라이브러리입니다.
+
+```
+yarn add react-router-dom
+```

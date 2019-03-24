@@ -102,3 +102,14 @@ SPA, Single Page Application 개발을 위해서는 라우팅 기능이 필요�
 ```
 yarn add react-router-dom
 ```
+
+### NODE_PATH 설정
+
+SPA 는 여러개의 Page 를 가지고 있기 때문에, 폴더 구조가 복잡해 질 수 있습니다. 뎁스가 깊은 폴더 내에 있는 Component 에서 다른 Component 를 참조한다면 ../../../../../ 와 같은 소스가 많이 생겨납니다.
+
+그래서 NODE_PATH 를 지정해서 절대경로로 import 해줄 수 있도록 합니다.
+.env 파일을 루트 경로에 추가하여 아래와 같이 입력합니다.
+
+```
+NODE_PATH=src
+```
